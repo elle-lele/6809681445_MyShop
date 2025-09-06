@@ -11,24 +11,18 @@
         Free Shipping on Orders Over ฿1,000
     </div>
 
-    <header class="header">
+   <header class="header">
         <div class="header_content">
             <a href="#" class="logo">SKIN</a>
             <nav class="nav">
                 <a href="#story">About</a>
-                <a href="#products">Products</a>
+                <a href="#products">Shop</a>
                 <a href="#contact">Contact</a>
             </nav>
             <div class="header_icons">
-                <a href="#" style="text-decoration: none; color: #6b6b6b; font-size: 0.75rem; 
-                    font-weight: 400; text-transform: uppercase; letter-spacing: 0.8px; 
-                    transition: color 0.3s ease;">🔎Search</a>
-                <a href="#" style="text-decoration: none; color: #6b6b6b; 
-                    font-size: 0.75rem; font-weight: 400; text-transform: uppercase; 
-                    letter-spacing: 0.8px; transition: color 0.3s ease;">👤Account</a>
-                <a href="#" style="text-decoration: none; color: #6b6b6b; font-size: 0.75rem; 
-                    font-weight: 400; text-transform: uppercase; letter-spacing: 0.8px; 
-                    transition: color 0.3s ease;">🛒Cart</a>
+                <a href="#">🔎Search</a>
+                <a href="#">👤Account</a>
+                <a href="#">🛒Cart</a>
             </div>
         </div>
     </header>
@@ -36,20 +30,39 @@
     <section class="hero">
         <div class="hero_image">
             <img src="resources/hero_image.png" alt="Hero Image">
-
         </div>
-
-        <div class="hero_content" style="margin-top: 1rem;">
-            <h1 style="font-size: 2rem; font-weight: 400; 
-                margin-bottom: 0.5rem; letter-spacing: 1px; color: #6b6b6b;">
-                SKINCARE REDEFINED</h1>
-            <p style="font-size: 0.9rem; font-weight: 300; 
-                letter-spacing: 0.5px; color: #8a8a8a; margin-bottom: 0.5rem;">
-                Lightweight. Effective. Accessible.</p>
-            <button class="hero_btn" style="background: #8a8a8a; color: #ffffff; padding: 0.8rem 2rem; 
-                font-size: 0.8rem; font-weight: 400; letter-spacing: 1px; 
-                box-shadow: 0 2px 8px rgba(138, 138, 138, 0.2);"
-                onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Explore Now</button>
+        <div class="hero_content">
+            <h1>SKINCARE REDEFINED</h1>
+            <p>Lightweight. Effective. Accessible.</p>
+            <button class="hero_btn"
+                onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+                Explore Now
+            </button>
         </div>
-
     </section>
+
+    <section class="categories_section">
+            <div class="categories_header">
+                <h2>PRODUCT CATEGORIES</h2>
+                <p>Discover our lightweight, science backed skincare collection</p>
+            </div>
+            <div class="categories_grid">
+                <div class="category-card">
+                    <div class="category_image face_care_bg"></div>
+                    <div class="category_info">
+                        <h3>Face Care</h3>
+                        <p>Complete facial skincare routine including cleansers, treatments, and protection</p>
+                        <a href="my1stcategory.html" class="category_btn">Shop Face Care</a>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <div class="category_image body_care_bg"></div>
+                    <div class="category_info">
+                        <h3>Body Care</h3>
+                        <p>Nourishing body treatments and specialized care products</p>
+                        <a href="my2ndcategory.html" class="category_btn">Shop Body Care</a>
+                    </div>
+                </div>
+            </div>
+        </section>
