@@ -203,6 +203,114 @@ body {
     box-shadow: 0 8px 25px rgba(214, 211, 209, 0.4);
 }
 
+.categories_section {
+    padding: 6rem 0;
+    background: #fff;
+}
+
+.categories_header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.categories_header h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    color: #78716c;
+}
+
+.categories_header p {
+    font-size: 1rem;
+    color: #a8a29e;
+}
+
+.categories_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.category_card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+}
+
+.category_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.category_image {
+    background: #fafaf9;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+.face_care_bg {
+    background: linear-gradient(135deg, #f8f6f3 0%, #fafaf9 100%);
+}
+
+.body_care_bg {
+    background: linear-gradient(135deg, #f5f5f4 0%, #f8f6f3 100%);
+}
+
+.category_info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.category_info h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #57534e;
+    letter-spacing: 1px;
+}
+
+.category_info p {
+    font-size: 0.95rem;
+    color: #a8a29e;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.category_btn {
+    background: linear-gradient(135deg, #e7e5e4, #f5f5f4);
+    color: #78716c;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(231, 229, 228, 0.3);
+}
+
+.category_btn:hover {
+    background: linear-gradient(135deg, #d6d3d1, #e7e5e4);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(214, 211, 209, 0.4);
+}
+
 .main_content {
     max-width: 1400px;
     margin: 0 auto;
