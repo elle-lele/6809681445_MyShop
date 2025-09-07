@@ -474,6 +474,7 @@ body {
 
 .features {
     background: #f8f6f4;
+    margin-top: 20px;
     padding: 4rem 2rem;
 }
 
@@ -516,19 +517,19 @@ body {
     font-size: 0.95rem;
 }
 
-.advisory-board-section {
+.advisory_board_section {
     padding: 6rem 0;
     background: linear-gradient(135deg, #fafaf9 0%, #f5f5f4 100%);
     margin-top: 25px;
 }
 
-.advisory-board-section .container {
+.advisory_board_section .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
-.advisory-board-section h2 {
+.advisory_board_section h2 {
     font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
@@ -537,7 +538,7 @@ body {
     color: #6b6b6b;
 }
 
-.board-grid {
+.board_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
@@ -545,11 +546,11 @@ body {
     margin: 0 auto;
 }
 
-.board-member {
+.board_member {
     text-align: center;
 }
 
-.board-image {
+.board_image {
     width: 280px;
     height: 280px;
     background: #e8e8e8;
@@ -561,29 +562,29 @@ body {
     overflow: hidden;
 }
 
-.board-image img {
+.board_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.board-member figcaption {
+.board_member figcaption {
     font-size: 0.85rem;
     color: #666;
     margin-bottom: 1rem;
 }
 
-.board-member figcaption a {
+.board_member figcaption a {
     color: #666;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
 
-.board-member figcaption a:hover {
+.board_member figcaption a:hover {
     color: #2c2c2c;
 }
 
-.board-member h3 {
+.board_member h3 {
     font-size: 1.3rem;
     font-weight: 500;
     color: #2c2c2c;
@@ -591,7 +592,7 @@ body {
     letter-spacing: 1px;
 }
 
-.board-member .role {
+.board_member .role {
     font-size: 0.9rem;
     color: #8a8a8a;
     margin-bottom: 1.5rem;
@@ -599,7 +600,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-.board-member .desc {
+.board_member .desc {
     font-size: 0.95rem;
     color: #6b6b6b;
     line-height: 1.6;
@@ -755,6 +756,62 @@ body {
     display: block;
 }
 
+.story {
+    padding: 6rem 0;
+    background: #fff;
+    text-align: center;
+}
+
+.story_container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.story h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #6b6b6b;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    line-height: 1.1;
+}
+
+.story p {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    font-weight: 300;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story p:last_of_type {
+    margin-bottom: 4rem;
+}
+
+.story_founder {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 2rem;
+}
+
+.story_founder .title {
+    font-size: 1.1rem;
+    color: #6b6b6b;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.story_founder .name {
+    font-size: 1.3rem;
+    color: #2c2c2c;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    letter-spacing: 2px;
+}
 
 
 .product_images_section img {
