@@ -215,11 +215,11 @@ body {
 }
 
 .categories_header h2 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    letter-spacing: 2px;
-    color: #78716c;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    color: #6b6b6b;
 }
 
 .categories_header p {
@@ -277,7 +277,7 @@ body {
 }
 
 .category_info h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1rem;
     color: #57534e;
@@ -285,10 +285,11 @@ body {
 }
 
 .category_info p {
-    font-size: 0.95rem;
-    color: #a8a29e;
-    margin-bottom: 2rem;
-    line-height: 1.6;
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #8a8a8a;
+    margin-bottom: 0.5rem;
 }
 
 .category_btn {
@@ -331,12 +332,18 @@ body {
 
 .section_header h2 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: #57534e;
+    letter-spacing: 1px;
 }
 
 .section_header p {
-    color: #666;
     font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #8a8a8a;
+    margin-bottom: 0.5rem;
 }
 
 .categories_grid {
