@@ -248,21 +248,6 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
-.category_image {
-    background: #fafaf9;
-    border-radius: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    padding: 10px;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 12px;
-}
-
 .face_care_bg {
     background: linear-gradient(135deg, #f8f6f3 0%, #fafaf9 100%);
 }
