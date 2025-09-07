@@ -472,6 +472,49 @@ body {
     margin-top: 3rem;
 }
 
+.features {
+    background: #f8f6f4;
+    padding: 4rem 2rem;
+}
+
+.features_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feature_item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.feature_icon {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+.feature_content h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #57534e;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.feature_content p {
+    color: #8a8a8a;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
 
 .video_section {
     padding: 6rem 0;
