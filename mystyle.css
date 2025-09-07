@@ -610,6 +610,7 @@ body {
 .video_section {
     padding: 6rem 0;
     background: #fafaf9;
+    margin-top: 15px;
 }
 
 .video_section h2 {
